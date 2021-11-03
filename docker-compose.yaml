@@ -1,0 +1,23 @@
+version: '3'
+networks:
+  infra_chatbot:
+    external: true
+    
+services:
+  google_assistant:
+    image: google_assistant
+    build: ./
+    container_name: kwsnet-google-assistant
+    restart: always
+    networks:
+      - infra_chatbot
+    deploy:
+      resources:
+        limits:
+          cpus: '0.1'
+          memory: 128M
+    logging:
+      driver: json-file
+      options:
+        max-file: '5'
+        max-size: 10m
