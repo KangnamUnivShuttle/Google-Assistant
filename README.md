@@ -1,7 +1,7 @@
 # Google-Assistant
 Google assistant test using google home mini
 
-Reference [youtube](https://youtu.be/_oKhSWnGCFM)
+Reference [youtube](https://youtu.be/_oKhSWnGCFM) and [stackoverflow](https://stackoverflow.com/a/55143483/7270469)
 
 ## How to
 
@@ -14,34 +14,29 @@ Reference [youtube](https://youtu.be/_oKhSWnGCFM)
 2. Create new project.
 
 <div align="center">
-  <img width="512" alt="스크린샷 2021-11-04 오전 12 53 02" src="https://user-images.githubusercontent.com/16532326/140095458-edc3668d-8c34-47d5-9d92-a913c2592f2b.png">
-</div>
-
-3. Select `Custom` and press `Next` button.
-
-<div align="center">
-<img width="512" alt="스크린샷 2021-11-04 오전 12 54 21" src="https://user-images.githubusercontent.com/16532326/140095694-8c0f8acd-cd20-4eb1-85c5-ff615abc16dd.png">
+<img width="512" alt="스크린샷 2021-11-04 오전 1 30 46" src="https://user-images.githubusercontent.com/16532326/140102510-f2353883-a59c-4df1-95cd-cff9144760c2.png">
 </div>
   
-4. Select `Blank` and press `Start building` button.
+3. Select `Smart Home` and press `Start building` button.
 
 <div align="center">
   <img width="512" alt="스크린샷 2021-11-04 오전 12 56 42" src="https://user-images.githubusercontent.com/16532326/140096092-e04535ca-7821-421c-bd60-bb8a4415daf8.png">
 </div>
   
-5. Select project what we recently made.
+4. Select project what we recently made.
 
 <div align="center">
-<img width="626" alt="스크린샷 2021-11-04 오전 12 57 53" src="https://user-images.githubusercontent.com/16532326/140096373-f5d2da53-deca-4f21-9a3e-3c34b382a459.png">
-<img width="317" alt="스크린샷 2021-11-04 오전 12 58 10" src="https://user-images.githubusercontent.com/16532326/140096387-f65c3df2-083b-4500-b44c-ac85c8149288.png">
+<img width="379" alt="스크린샷 2021-11-04 오전 1 33 03" src="https://user-images.githubusercontent.com/16532326/140102973-ef932eb8-4e26-4ed1-8685-690cca3c19bd.png">
+
+  <img width="317" alt="스크린샷 2021-11-04 오전 12 58 10" src="https://user-images.githubusercontent.com/16532326/140096387-f65c3df2-083b-4500-b44c-ac85c8149288.png">
 </div>
   
-6. Add language what you will use `Develop tap` > `Actions` > `Language settings`
+5. Add language what you will use `Triple dots` > `Project settings` > `Language tap`
 
 <div align="center">
-<img width="512" alt="스크린샷 2021-11-04 오전 1 02 15" src="https://user-images.githubusercontent.com/16532326/140097109-bdde17d6-05bd-48b4-b9c5-6678674d4ca9.png">
+<img width="512" alt="스크린샷 2021-11-04 오전 1 36 23" src="https://user-images.githubusercontent.com/16532326/140103386-87d45366-7398-46f8-b1f1-70ac8a0c9719.png">
 </div>
 
-7. Go to `Develop tap` > `Invocation menu`. Set what world to wake up your assistant. In my case set `Hey, siri!` :D
+6. Go to `Develop tap` > `Invocation menu`. Set what world to wake up your assistant. In my case set `Hey, siri!` :D
 
 
