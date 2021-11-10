@@ -3,6 +3,28 @@ Google assistant test using google home mini
 
 Reference [youtube](https://youtu.be/_oKhSWnGCFM) and [stackoverflow](https://stackoverflow.com/a/55143483/7270469)
 
+## What is OAuth?
+
+OAuth is kind of `Authorization`.
+
+Simply get authorized key between service and other service.
+
+```
+        Limited access permission
+   Bank <-------------------------- App
+    ^ <- Each different services ->  ^
+    |                                |
+    |                                |
+    ME ------------------------------┛
+      Want send money insted of go to bank
+```
+
+1. `App` will ask to `Bank`. Such as `Can i send ME's money to B?`
+2. Then `Bank` says to `Me` is it okay to grant permission to `App`?
+3. If `Me` says okay, then `Bank` return limited permission key (token) to `App`
+4. `App` will request some order, in this case `Send ME's money to B` with token
+5. `Bank` will verify token and execute order.
+
 ## How to
 
 1. Go to [Actions on Google](https://console.actions.google.com/)
