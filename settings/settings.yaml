@@ -1,0 +1,8 @@
+accountLinking:
+  appClientId: 1027569350111-6vstv9mqfvu57tn4gkvjijk9jaf756d6.apps.googleusercontent.com
+  authGrantType: AUTH_CODE
+  authorizationUrl: https://testhomemini-fac05.firebaseapp.com/__/auth/handler
+  linkingType: OAUTH
+  tokenUrl: https://kws1.gapmoe.net/google/post
+category: HOME_CONTROL
+projectId: testhomemini-fac05

@@ -25,6 +25,27 @@ Simply get authorized key between service and other service.
 4. `App` will request some order, in this case `Send ME's money to B` with token
 5. `Bank` will verify token and execute order.
 
+## Deploy action
+
+[Download gactions cli](https://developers.google.com/assistant/actionssdk/gactions) 
+
+```
+./gactions login
+./gactions pull --project-id testhomemini-fac05
+
+# If this project not enabled actions-api
+Pulling files in the project "testhomemini-fac05" from Actions Console...
+[ERROR] server did not return HTTP 200
+{
+  "error": {
+    "code": 403,
+    "message": "Actions API has not been used in project ... before or it is disabled. Enable it by visiting <URL> then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry."
+  }
+}
+
+# old version ./gactions update --action_package action.json --project testhomemini-fac05
+```
+
 ## How to
 
 1. Go to [Actions on Google](https://console.actions.google.com/)
